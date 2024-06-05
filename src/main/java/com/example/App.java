@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
-            System.out.println("Kalkulator Biasa");
+            System.out.println("Kalkulator Sederhana");
             System.out.print("Masukkan angka pertama: ");
             double num1 = scanner.nextDouble();
             System.out.print("Masukkan operator (+, -, *, /): ");
@@ -34,7 +34,7 @@ public class App {
                 if (num2 != 0) {
                     return num1 / num2;
                 } else {
-                    throw new ArithmeticException("Error! Pembagian dengan nol tidak bisa.");
+                    throw new ArithmeticException("Error! Angka tidak bisa dibagi 0 (Invalid).");
                 }
             }
             default -> throw new IllegalArgumentException("Operator tidak valid!");

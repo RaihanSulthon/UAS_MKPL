@@ -11,7 +11,7 @@ public class App {
             char operator = scanner.next().charAt(0);
             System.out.print("Masukkan angka kedua: ");
             double num2 = scanner.nextDouble();
-
+ //Test
             double result =calculate(num1, num2, operator);
 
    

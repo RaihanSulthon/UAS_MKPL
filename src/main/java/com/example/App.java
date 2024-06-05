@@ -7,7 +7,7 @@ public class App {
             System.out.println("Kalkulator Biasa");
             System.out.print("Masukkan angka pertama: ");
             double num1 = scanner.nextDouble();
-            System.out.print("Masukkan operator (+, -, *, /): ");
+            System.out.print("Masukkan Simbol Perhitungan (+, -, *, /): ");
             char operator = scanner.next().charAt(0);
             System.out.print("Masukkan angka kedua: ");
             double num2 = scanner.nextDouble();
